@@ -2,7 +2,7 @@
 and eyes in a given input image.'''
 
 #Import necessary libraries
-import cv2 as cv
+import cv2 as cv #wrapper package for openCv bindings
 import numpy as np
 
 #Load face cascade and hair cascade from haarcascades folder
