@@ -3,12 +3,12 @@ calculations. Uses webcam video feed as input.'''
 
 #Import necessary libraries
 from scipy.spatial import distance
-from imutils import face_utils
+from imutils import face_utils #provides function for image processing functions such as translation, rotation, resizing, skeletonization
 import numpy as np
 import pygame #For playing sound
 import time
-import dlib
-import cv2
+import dlib #for data analysis
+import cv2 #wrapper package for openCv bindings
 
 
 #COunts no. of consecutuve frames below threshold value
