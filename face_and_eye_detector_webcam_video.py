@@ -2,15 +2,6 @@
 and eyes in a video feed which can be inputted through a webcam.'''
 
 #Import necessary libraries
-import cv2 as cv
-import numpy as np
-
-#Load face cascade and hair cascade from haarcascades folder
-face_cascade = cv.CascadeClassifier("haarcascades/haarcascade_frontalface_default.xml")
-eye_cascade = cv.CascadeClassifier("haarcascades/haarcascade_eye.xml")
-
-#Capture video from webcam
-video_capture = cv.VideoCapture(0)
 
 #Read all frames from webcam
 while True:
